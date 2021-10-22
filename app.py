@@ -13,6 +13,7 @@ import plotly.graph_objects as go
 
 st.set_page_config(layout="wide")
 
+# jeje
 
 def S(x, alfa, beta): return np.exp(-alfa*x-beta*x*x)
 def DBE(n,d,alfabeta): return n*d*(1+d/alfabeta)
